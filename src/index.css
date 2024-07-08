@@ -1,13 +1,28 @@
-body {
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body,
+#root {
+  height: 100%;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  overflow: hidden; /* Ensures no extra scrolling */
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+#root {
+  display: flex;
+  flex-direction: column;
+}
+
+.slider-wrapper,
+.slick-slider {
+  height: 100vh; /* Ensure slider takes full viewport height */
+}
+
+.slick-slide {
+  height: 100vh; /* Ensure each slide takes full viewport height */
+  display: flex; /* Flexbox to center content */
+  justify-content: center;
+  align-items: center;
 }
