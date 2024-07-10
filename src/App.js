@@ -6,6 +6,11 @@ import MiddleHeader from "./components/Navbar/MiddleHeader";
 import MainNavbar from "./components/Navbar/MainNavbar";
 import Home from "../src/pages/Home";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import WelcomePage from "./pages/WelcomePage";
+import Service from "./pages/Service";
+import WorkGallery from "./pages/WorkGallery";
+import TestimonialAndContactForm from "./pages/TestimonialAndContactForm";
+import Footer from "./pages/Footer";
 
 function App() {
   return (
@@ -27,6 +32,11 @@ function App() {
           </Routes>
         </div>
       </Router>
+      <WelcomePage />
+      <Service />
+      <WorkGallery />
+      <TestimonialAndContactForm />
+      <Footer/>
     </>
   );
 }

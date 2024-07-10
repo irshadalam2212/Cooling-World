@@ -60,7 +60,7 @@ const MainNavbar = () => {
         </div>
         <div className="flex items-center space-x-2 bg-blue-600 text-white py-2 px-4 rounded-md">
           <span className="text-sm">CALL FOR EMERGENCY</span>
-          <span className="font-bold">+ (901) 855 678 90</span>
+          <span className="font-bold">+ (91) xxxxxxxxxx</span>
         </div>
       </div>
     </nav>

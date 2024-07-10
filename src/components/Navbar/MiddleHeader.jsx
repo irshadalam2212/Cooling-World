@@ -13,8 +13,8 @@ const MiddleHeader = () => {
             <i className="fas fa-map-marker-alt text-white"></i>
           </div>
           <div>
-            <div className="text-blue-900 font-bold">Newyork, USA</div>
-            <div className="text-gray-500">Flat 201, Reynolds Neck Str</div>
+            <div className="text-blue-900 font-bold">Thane, Maharashtra</div>
+            <div className="text-gray-500">-----------------</div>
           </div>
         </div>
         <div className="flex items-center space-x-2">
