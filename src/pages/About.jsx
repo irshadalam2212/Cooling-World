@@ -1,8 +1,11 @@
 import React from "react";
 
-function WelcomePage() {
+function AboutPage() {
   return (
-    <div className="bg-white min-h-screen flex items-center justify-center">
+    <div
+      id="about"
+      className="bg-white min-h-screen flex items-center justify-center"
+    >
       <div className="rounded-lg flex gap-5">
         {/* Left Section */}
         <div className="py-6 px-5">
@@ -82,4 +85,4 @@ function WelcomePage() {
   );
 }
 
-export default WelcomePage;
+export default AboutPage;

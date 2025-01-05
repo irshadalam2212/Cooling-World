@@ -4,11 +4,11 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import image1 from "../assets/image1.jpg";
 import image2 from "../assets/image2.jpg";
-import WelcomePage from "./WelcomePage";
 import Service from "./Service";
 import WorkGallery from "./WorkGallery";
 import Contact from "./Contact";
 import Testimonial from "./Testimonial";
+import AboutPage from "./About";
 
 const Home = () => {
   const settings = {
@@ -22,7 +22,7 @@ const Home = () => {
 
   return (
     <>
-      <div className="slider-wrapper">
+      <div id="home" className="slider-wrapper">
         {/* <Slider {...settings}> */}
         <div
           className="h-screen bg-cover bg-center"
@@ -63,7 +63,7 @@ const Home = () => {
         </div>
         {/* </Slider> */}
       </div>
-      <WelcomePage />
+      <AboutPage />
       <Service />
       <WorkGallery />
       <Testimonial />

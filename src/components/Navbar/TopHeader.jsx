@@ -63,10 +63,10 @@ const TopHeader = () => {
           </div>
           <div className="border-r border-white h-4"></div>
           <div className="flex items-center space-x-4">
-            <i className="fab fa-facebook text-white"></i>
-            <i className="fab fa-twitter text-white"></i>
-            <i className="fab fa-instagram text-white"></i>
-            <i className="fab fa-pinterest text-white"></i>
+            <i className="fab fa-facebook text-white cursor-pointer hover:text-yellow-400 transition-all duration-200"></i>
+            <i className="fab fa-twitter text-white cursor-pointer hover:text-yellow-400 transition-all duration-200"></i>
+            <i className="fab fa-instagram text-white cursor-pointer hover:text-yellow-400 transition-all duration-200"></i>
+            <i className="fab fa-pinterest text-white cursor-pointer hover:text-yellow-400 transition-all duration-200"></i>
           </div>
         </div>
       </div>

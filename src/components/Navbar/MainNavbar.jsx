@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { Link } from "react-router-dom";
+import { Link } from "react-scroll";
 
 const MainNavbar = () => {
   const [isSticky, setSticky] = useState(false);
@@ -30,28 +30,46 @@ const MainNavbar = () => {
     >
       <div className="container mx-auto flex items-center justify-between py-4 px-[100px]">
         <div className="flex items-center space-x-8 text-xl">
-          <Link to="/" className="text-gray-800">
+          <Link
+            to="home"
+            className="text-gray-800 cursor-pointer hover:text-gray-950"
+          >
             Home
           </Link>
           <span className="text-gray-300">|</span>
-          <Link to="/about" className="text-gray-800">
+          <Link
+            to="about"
+            className="text-gray-800 cursor-pointer hover:text-gray-950"
+          >
             About Us
           </Link>
 
           <span className="text-gray-300">|</span>
-          <Link to="/services" className="text-gray-800">
+          <Link
+            to="services"
+            className="text-gray-800 cursor-pointer hover:text-gray-950"
+          >
             Services
           </Link>
           <span className="text-gray-300">|</span>
-          <Link to="/reviews" className="text-gray-800">
+          <Link
+            to="work"
+            className="text-gray-800 cursor-pointer hover:text-gray-950"
+          >
             Work
           </Link>
           <span className="text-gray-300">|</span>
-          <Link to="/blog" className="text-gray-800">
+          <Link
+            to="blog"
+            className="text-gray-800 cursor-pointer hover:text-gray-950"
+          >
             Blog
           </Link>
           <span className="text-gray-300">|</span>
-          <Link to="/contact" className="text-gray-800">
+          <Link
+            to="contact"
+            className="text-gray-800 cursor-pointer hover:text-gray-950"
+          >
             Contact Us
           </Link>
         </div>

@@ -1,16 +1,17 @@
 // Footer.jsx
 import React from "react";
+import { Link } from "react-scroll";
 
 const Footer = () => {
   return (
-    <footer className="bg-blue-900 text-white py-12">
-      <div className="container mx-auto px-4 flex flex-col md:flex-row justify-between items-start">
+    <footer className="bg-blue-900 text-white px-5 py-6">
+      <div className="container grid grid-cols-3 gap-5 ">
         {/* Left Section */}
-        <div className="md:w-1/3 mb-8 md:mb-0">
+        <div className="mb-8 md:mb-0">
           <h2 className="text-2xl font-bold mb-4">Cooling World</h2>
-          <p className="mb-4">Experienced Care for Your Heat and Air.</p>
+          <p className="mb-4">Experienced Care for Your air-conditioner.</p>
           <p className="text-gray-300 mb-4">
-            Cooling World has been in business in Thane, Maharshtra since 2017.
+            Cooling World has been in business in Thane, Maharshtra since 2022.
             During that time, we have taken great care to build a successful
             HVAC business.
           </p>
@@ -20,74 +21,59 @@ const Footer = () => {
         </div>
 
         {/* Middle Section */}
-        <div className="md:w-1/3 mb-8 md:mb-0">
+        <div className="mb-8 md:mb-0">
           <h2 className="text-xl font-bold mb-4">Useful Information</h2>
           <div className="flex flex-wrap">
             <div className="w-1/2">
               <ul className="list-none">
                 <li className="mb-2">
-                  <a href="#" className="text-gray-300">
+                  <Link to="services" className="text-gray-300">
                     A/C Installation
-                  </a>
+                  </Link>
                 </li>
                 <li className="mb-2">
-                  <a href="#" className="text-gray-300">
+                  <Link to="contact" className="text-gray-300">
                     Contact Us
-                  </a>
+                  </Link>
                 </li>
                 <li className="mb-2">
-                  <a href="#" className="text-gray-300">
-                    Home
-                  </a>
-                </li>
-                <li className="mb-2">
-                  <a href="#" className="text-gray-300">
-                    Home-old
-                  </a>
-                </li>
-                <li className="mb-2">
-                  <a href="#" className="text-gray-300">
+                  <Link to="#" className="text-gray-300">
                     Meet Our Team
-                  </a>
+                  </Link>
                 </li>
                 <li className="mb-2">
-                  <a href="#" className="text-gray-300">
+                  <Link to="testimonial" className="text-gray-300">
                     Reviews
-                  </a>
+                  </Link>
+                </li>
+                <li className="mb-2">
+                  <Link to="about" className="text-gray-300">
+                    About Us
+                  </Link>
                 </li>
               </ul>
             </div>
             <div className="w-1/2">
               <ul className="list-none">
                 <li className="mb-2">
-                  <a href="#" className="text-gray-300">
-                    About Us
-                  </a>
-                </li>
-                <li className="mb-2">
-                  <a href="#" className="text-gray-300">
+                  <Link to="#" className="text-gray-300">
                     FAQs
-                  </a>
+                  </Link>
                 </li>
                 <li className="mb-2">
-                  <a href="#" className="text-gray-300">
-                    Home 02
-                  </a>
-                </li>
-                <li className="mb-2">
-                  <a href="#" className="text-gray-300">
+                  <Link to="#" className="text-gray-300">
                     Maintenance & Repair
-                  </a>
+                  </Link>
                 </li>
                 <li className="mb-2">
-                  <a href="#" className="text-gray-300">
+                  <Link to="#" className="text-gray-300">
                     Our Projects
-                  </a>
+                  </Link>
                 </li>
                 <li className="mb-2">
-                  <a href="#" className="text-gray-300">
+                  <Link to="#" className="text-gray-300">
                     Services
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>
@@ -95,7 +81,7 @@ const Footer = () => {
         </div>
 
         {/* Right Section */}
-        <div className="md:w-1/3">
+        <div className="">
           <h2 className="text-xl font-bold mb-4">Subscribe Today</h2>
           <p className="text-gray-300 mb-4">
             Subscribe to us to get updates, news & tips in your inbox.

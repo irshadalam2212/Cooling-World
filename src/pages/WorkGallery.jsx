@@ -1,8 +1,9 @@
 import React from "react";
+import { works } from "../data/data";
 
 function WorkGallery() {
   return (
-    <div className="bg-gray-100 py-6 px-5">
+    <div id="work" className="bg-white py-6 px-5">
       <div className="container mx-auto px-4">
         <div className="flex flex-col items-center sm:flex-row sm:justify-between">
           <div>
@@ -21,8 +22,7 @@ function WorkGallery() {
             View All
           </button>
         </div>
-        <div className="mt-10 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4">
-          {/* Image 1 */}
+        {/* <div className="mt-10 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4">
           <div>
             <img
               src="/images/project-1.jpg"
@@ -30,7 +30,6 @@ function WorkGallery() {
               className="w-60 h-60 object-cover rounded-lg shadow-lg"
             />
           </div>
-          {/* Image 2 */}
           <div>
             <img
               src="/images/project-2.jpg"
@@ -38,7 +37,6 @@ function WorkGallery() {
               className="w-60 h-60 object-cover rounded-lg shadow-lg"
             />
           </div>
-          {/* Image 3 */}
           <div>
             <img
               src="/images/project-3.jpg"
@@ -46,7 +44,6 @@ function WorkGallery() {
               className="w-60 h-60 object-cover rounded-lg shadow-lg"
             />
           </div>
-          {/* Image 3 */}
           <div>
             <img
               src="/images/project-4.jpg"
@@ -54,6 +51,19 @@ function WorkGallery() {
               className="w-60 h-60 object-cover rounded-lg shadow-lg"
             />
           </div>
+        </div> */}
+        <div className="flex flex-wrap gap-3 mt-10">
+          {works.map((work) => (
+            <div key={work.id} className="mx-auto relative">
+              <img src={work.image} alt="" className="w-80 h-96 object-cover" />
+              <div className="text-xs font-medium bg-orange-600 text-white w-fit px-6 py-1 absolute bottom-20 left-0">
+                {work.category}
+              </div>
+              <div className="text-lg font-semibold bg-white w-fit px-6 py-1 absolute bottom-11 left-0">
+                {work.service}
+              </div>
+            </div>
+          ))}
         </div>
       </div>
     </div>

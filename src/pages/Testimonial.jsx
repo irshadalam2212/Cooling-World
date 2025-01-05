@@ -3,11 +3,13 @@ import React from "react";
 
 const Testimonial = () => {
   return (
-    <div className="flex flex-col md:flex-row items-center justify-center bg-gray-100 p-4">
+    <div className=" bg-white px-5 py-6">
       {/* Testimonial Section */}
-      <div className="bg-white shadow-lg rounded-lg p-8 m-4 w-full md:w-1/2">
-        <h2 className="text-lg font-bold text-blue-600">TESTIMONIALS</h2>
-        <h3 className="text-3xl font-bold my-4">Words From Customers</h3>
+      <h3 className="font-semi-bold text-blue-600">TESTIMONIALS</h3>
+      <h1 className="text-4xl text-gray-800 font-bold mt-2">
+        Words From Customers
+      </h1>
+      <div className="shadow-md rounded-lg p-8 m-4 w-full md:w-1/2">
         <div className="flex items-center my-4">
           <img
             className="w-12 h-12 rounded-full mr-4"
@@ -15,7 +17,7 @@ const Testimonial = () => {
             alt="User avatar"
           />
           <div>
-            <p className="text-xl font-semibold">XYZ</p>
+            <p className="text-md font-semibold">Shabbir Shaikh</p>
             <p className="text-blue-500">Thane, Maharashtra</p>
           </div>
         </div>

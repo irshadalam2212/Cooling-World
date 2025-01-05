@@ -1,8 +1,11 @@
-import React from "react";
+import React, { useState } from "react";
+import Services from "../components/Services";
+import { ourServices } from "../data/data";
 
 function Service() {
+  const [services, setServices] = useState(ourServices);
   return (
-    <div className="bg-gray-100 py-16">
+    <div id="services" className="bg-white">
       <div className="container mx-auto px-4">
         <div className="text-center">
           <h3 className="text-blue-600 uppercase font-semibold">
@@ -12,12 +15,12 @@ function Service() {
             Services we offer
           </h1>
           <p className="text-gray-600 mt-4">
-            We Provide Fast, Reliable Heating and Air Conditioning Services in
-            Mumbai City and Its Surrounding Areas.
+            We Provide Fast, Reliable Air-Conditioning Services in Mumbai City
+            and Its Surrounding Areas.
           </p>
         </div>
-        <div className="mt-10 flex flex-wrap justify-center">
-          {/* Service 1 */}
+        {/* <div className="mt-10 flex flex-wrap justify-center">
+          
           <div className="w-full sm:w-1/2 md:w-1/3 p-4">
             <div className="bg-white p-6 rounded-lg shadow-lg text-center">
               <div className="mb-4">
@@ -36,7 +39,7 @@ function Service() {
               </p>
             </div>
           </div>
-          {/* Service 2 */}
+          
           <div className="w-full sm:w-1/2 md:w-1/3 p-4">
             <div className="bg-white p-6 rounded-lg shadow-lg text-center">
               <div className="mb-4">
@@ -55,7 +58,7 @@ function Service() {
               </p>
             </div>
           </div>
-          {/* Service 3 */}
+          
           <div className="w-full sm:w-1/2 md:w-1/3 p-4">
             <div className="bg-white p-6 rounded-lg shadow-lg text-center">
               <div className="mb-4">
@@ -74,7 +77,7 @@ function Service() {
               </p>
             </div>
           </div>
-          {/* Service 4 */}
+          
           <div className="w-full sm:w-1/2 md:w-1/3 p-4">
             <div className="bg-white p-6 rounded-lg shadow-lg text-center">
               <div className="mb-4">
@@ -93,7 +96,7 @@ function Service() {
               </p>
             </div>
           </div>
-          {/* Service 4 */}
+          
           <div className="w-full sm:w-1/2 md:w-1/3 p-4">
             <div className="bg-white p-6 rounded-lg shadow-lg text-center">
               <div className="mb-4">
@@ -112,7 +115,8 @@ function Service() {
               </p>
             </div>
           </div>
-        </div>
+        </div> */}
+        <Services services={services} />
       </div>
     </div>
   );

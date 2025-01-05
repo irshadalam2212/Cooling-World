@@ -2,9 +2,12 @@ import React from "react";
 
 const Contact = () => {
   return (
-    <div className="bg-gray-100 px-5 flex items-center justify-center mb-6">
+    <div
+      id="contact"
+      className="bg-white px-5 flex items-center justify-center mb-6"
+    >
       {/* Contact Form Section */}
-      <div className="bg-white shadow-lg rounded-lg px-5 py-6 w-full md:w-1/2">
+      <div className="shadow-md rounded-lg px-5 py-6 w-full md:w-1/2">
         <h2 className="text-xl font-bold mb-4">Schedule an Appointment</h2>
         <form>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
@@ -18,7 +21,6 @@ const Contact = () => {
               className="p-2 border border-gray-300 rounded"
               type="email"
               placeholder="Email"
-              required
             />
             <input
               className="p-2 border border-gray-300 rounded"
@@ -28,14 +30,17 @@ const Contact = () => {
             />
             <select className="p-2 border border-gray-300 rounded" required>
               <option value="">Select Service</option>
-              <option value="service1">Service 1</option>
-              <option value="service2">Service 2</option>
-              <option value="service3">Service 3</option>
+              <option value="service1">Maintenance</option>
+              <option value="service2">Repair</option>
+              <option value="service3">Installation</option>
+              <option value="service3">Gas Filling</option>
+              <option value="service3">Washing Machine Repair</option>
+              <option value="service3">Refrigerator Repair</option>
             </select>
             <input
               className="p-2 border border-gray-300 rounded"
               type="text"
-              placeholder="Zip Code"
+              placeholder="Address"
               required
             />
             <select className="p-2 border border-gray-300 rounded" required>
