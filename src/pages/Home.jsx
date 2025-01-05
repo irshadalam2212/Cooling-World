@@ -4,6 +4,11 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import image1 from "../assets/image1.jpg";
 import image2 from "../assets/image2.jpg";
+import WelcomePage from "./WelcomePage";
+import Service from "./Service";
+import WorkGallery from "./WorkGallery";
+import Contact from "./Contact";
+import Testimonial from "./Testimonial";
 
 const Home = () => {
   const settings = {
@@ -16,8 +21,9 @@ const Home = () => {
   };
 
   return (
-    <div className="slider-wrapper">
-      <Slider {...settings}>
+    <>
+      <div className="slider-wrapper">
+        {/* <Slider {...settings}> */}
         <div
           className="h-screen bg-cover bg-center"
           style={{ backgroundImage: `url(${image1})` }}
@@ -25,11 +31,11 @@ const Home = () => {
           <div className="flex items-center justify-center h-full bg-black bg-opacity-50">
             <div className="text-center text-white px-6">
               <h1 className="text-4xl md:text-6xl font-bold mb-4">
-                Quality Service at Affordable Prices
+                Quality Air Conditioning Repair Service
               </h1>
               <p className="mb-8">
-                Cooltek provides a wide variety of HVAC services to the homes
-                and businesses since 1965.
+                Cooling World provides a wide variety of air-conditioning
+                services to the homes and businesses since 2022.
               </p>
               <button className="bg-yellow-500 text-white py-2 px-4 rounded-md font-bold">
                 Read More
@@ -55,8 +61,14 @@ const Home = () => {
             </div>
           </div>
         </div>
-      </Slider>
-    </div>
+        {/* </Slider> */}
+      </div>
+      <WelcomePage />
+      <Service />
+      <WorkGallery />
+      <Testimonial />
+      <Contact />
+    </>
   );
 };
 

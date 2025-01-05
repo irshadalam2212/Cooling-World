@@ -2,7 +2,7 @@ import React from "react";
 
 function WorkGallery() {
   return (
-    <div className="bg-white py-16">
+    <div className="bg-gray-100 py-6 px-5">
       <div className="container mx-auto px-4">
         <div className="flex flex-col items-center sm:flex-row sm:justify-between">
           <div>
@@ -13,7 +13,7 @@ function WorkGallery() {
               Our Featured Works
             </h1>
             <p className="text-gray-600 mt-4">
-              We Have Done More Than 800 Projects In Last 3 Years, With 100%
+              We Have Done More Than 300 Projects In Last 2 Years, With 100%
               Satisfaction.
             </p>
           </div>
@@ -21,53 +21,37 @@ function WorkGallery() {
             View All
           </button>
         </div>
-        <div className="mt-10 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="mt-10 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4">
           {/* Image 1 */}
           <div>
             <img
-              src="/mnt/data/image.png"
+              src="/images/project-1.jpg"
               alt="Work 1"
-              className="w-full h-full object-cover rounded-lg shadow-lg"
+              className="w-60 h-60 object-cover rounded-lg shadow-lg"
             />
           </div>
           {/* Image 2 */}
           <div>
             <img
-              src="/mnt/data/image.png"
+              src="/images/project-2.jpg"
               alt="Work 2"
-              className="w-full h-full object-cover rounded-lg shadow-lg"
+              className="w-60 h-60 object-cover rounded-lg shadow-lg"
             />
           </div>
           {/* Image 3 */}
           <div>
             <img
-              src="/mnt/data/image.png"
+              src="/images/project-3.jpg"
               alt="Work 3"
-              className="w-full h-full object-cover rounded-lg shadow-lg"
+              className="w-60 h-60 object-cover rounded-lg shadow-lg"
             />
           </div>
-          {/* Image 4 */}
+          {/* Image 3 */}
           <div>
             <img
-              src="/mnt/data/image.png"
+              src="/images/project-4.jpg"
               alt="Work 4"
-              className="w-full h-full object-cover rounded-lg shadow-lg"
-            />
-          </div>
-          {/* Image 5 */}
-          <div>
-            <img
-              src="/mnt/data/image.png"
-              alt="Work 5"
-              className="w-full h-full object-cover rounded-lg shadow-lg"
-            />
-          </div>
-          {/* Image 6 */}
-          <div>
-            <img
-              src="/mnt/data/image.png"
-              alt="Work 6"
-              className="w-full h-full object-cover rounded-lg shadow-lg"
+              className="w-60 h-60 object-cover rounded-lg shadow-lg"
             />
           </div>
         </div>

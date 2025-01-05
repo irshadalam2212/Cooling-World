@@ -30,24 +30,21 @@ const MainNavbar = () => {
     >
       <div className="container mx-auto flex items-center justify-between py-4 px-[100px]">
         <div className="flex items-center space-x-8 text-xl">
-          <Link to="/" className="text-blue-500 font-bold">
+          <Link to="/" className="text-gray-800">
             Home
           </Link>
           <span className="text-gray-300">|</span>
           <Link to="/about" className="text-gray-800">
             About Us
           </Link>
+
           <span className="text-gray-300">|</span>
           <Link to="/services" className="text-gray-800">
             Services
           </Link>
           <span className="text-gray-300">|</span>
           <Link to="/reviews" className="text-gray-800">
-            Reviews
-          </Link>
-          <span className="text-gray-300">|</span>
-          <Link to="/specials" className="text-gray-800">
-            Specials
+            Work
           </Link>
           <span className="text-gray-300">|</span>
           <Link to="/blog" className="text-gray-800">
@@ -60,7 +57,7 @@ const MainNavbar = () => {
         </div>
         <div className="flex items-center space-x-2 bg-blue-600 text-white py-2 px-4 rounded-md">
           <span className="text-sm">CALL FOR EMERGENCY</span>
-          <span className="font-bold">+ (91) xxxxxxxxxx</span>
+          <span className="font-bold">+ (91) 8828721704</span>
         </div>
       </div>
     </nav>

@@ -9,7 +9,7 @@ function Service() {
             Our Services
           </h3>
           <h1 className="text-4xl font-bold text-gray-800 mt-2">
-            What We Can Offer You
+            Services we offer
           </h1>
           <p className="text-gray-600 mt-4">
             We Provide Fast, Reliable Heating and Air Conditioning Services in
@@ -22,7 +22,7 @@ function Service() {
             <div className="bg-white p-6 rounded-lg shadow-lg text-center">
               <div className="mb-4">
                 <img
-                  src="https://via.placeholder.com/100"
+                  src="/images/service2-1.jpg"
                   alt="Maintenance and Repair"
                   className="mx-auto"
                 />
@@ -41,13 +41,13 @@ function Service() {
             <div className="bg-white p-6 rounded-lg shadow-lg text-center">
               <div className="mb-4">
                 <img
-                  src="https://via.placeholder.com/100"
+                  src="/images/service2-2.jpg"
                   alt="Indoor Air Quality Testing"
                   className="mx-auto"
                 />
               </div>
               <h2 className="text-2xl font-semibold text-gray-800 mb-2">
-                Indoor Air Quality Testing
+                Installation Services
               </h2>
               <p className="text-gray-600">
                 Know how to pursue pleasure rationally encounter consequences
@@ -60,13 +60,51 @@ function Service() {
             <div className="bg-white p-6 rounded-lg shadow-lg text-center">
               <div className="mb-4">
                 <img
-                  src="https://via.placeholder.com/100"
+                  src="/images/service2-3.jpg"
                   alt="HVAC Design and Installation"
                   className="mx-auto"
                 />
               </div>
               <h2 className="text-2xl font-semibold text-gray-800 mb-2">
-                HVAC Design and Installation
+                A/C Gas filling Services
+              </h2>
+              <p className="text-gray-600">
+                To take a trivial example, which of ever undertakes laborious
+                physical at exercise, except to...
+              </p>
+            </div>
+          </div>
+          {/* Service 4 */}
+          <div className="w-full sm:w-1/2 md:w-1/3 p-4">
+            <div className="bg-white p-6 rounded-lg shadow-lg text-center">
+              <div className="mb-4">
+                <img
+                  src="/images/service2-4.jpg"
+                  alt="HVAC Design and Installation"
+                  className="mx-auto"
+                />
+              </div>
+              <h2 className="text-2xl font-semibold text-gray-800 mb-2">
+                Washing Machine Repair
+              </h2>
+              <p className="text-gray-600">
+                To take a trivial example, which of ever undertakes laborious
+                physical at exercise, except to...
+              </p>
+            </div>
+          </div>
+          {/* Service 4 */}
+          <div className="w-full sm:w-1/2 md:w-1/3 p-4">
+            <div className="bg-white p-6 rounded-lg shadow-lg text-center">
+              <div className="mb-4">
+                <img
+                  src="/images/service2-5.jpg"
+                  alt="HVAC Design and Installation"
+                  className="mx-auto"
+                />
+              </div>
+              <h2 className="text-2xl font-semibold text-gray-800 mb-2">
+                Refrigerator Repair
               </h2>
               <p className="text-gray-600">
                 To take a trivial example, which of ever undertakes laborious

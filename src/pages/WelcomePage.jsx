@@ -2,44 +2,60 @@ import React from "react";
 
 function WelcomePage() {
   return (
-    <div className="bg-gray-100 min-h-screen flex items-center justify-center">
-      <div className="bg-white shadow-lg rounded-lg flex">
+    <div className="bg-white min-h-screen flex items-center justify-center">
+      <div className="rounded-lg flex gap-5">
         {/* Left Section */}
-        <div className="w-1/2 p-5">
+        <div className="py-6 px-5">
           <img
-            src="https://via.placeholder.com/400x300"
+            src="https://html.kodesolution.com/2024/cooltech-php/images/resource/about2-1.jpg"
             alt="HVAC Service"
             className="rounded-lg"
           />
         </div>
         {/* Right Section */}
-        <div className="w-1/2 p-8">
+        <div className="py-6 px-5">
           <h3 className="text-blue-600 uppercase font-semibold">
             Welcome to Cooling World
           </h3>
           <h1 className="text-4xl font-bold text-gray-800 mt-2">
-            Heating & Air Conditioning Repair & Installation Company
+            Air Conditioning Repair & Installation Company
           </h1>
           <p className="text-gray-600 mt-4">
-            Nor again is there anyone who loves or pursues or desires to obtain
-            pain of because it is pain, but because occasionally circumstances.
+            Expert air-conditioning repair, installation, and maintenance
+            services. Certified technicians providing prompt and reliable
+            solutions. Keeping your space comfortable and cozy year-round.
           </p>
           <div className="mt-6">
+            <h4>Why Choose Us</h4>
             <div className="flex items-center mb-3">
               <span className="text-yellow-500 text-lg mr-2">★</span>
-              <span className="text-gray-800">Warrantees & Guarantees</span>
+              <span className="text-gray-800">
+                Unbeatable Availability: 24/7 Emergency Service
+              </span>
             </div>
             <div className="flex items-center mb-3">
               <span className="text-yellow-500 text-lg mr-2">★</span>
-              <span className="text-gray-800">Exceed Expectation</span>
+              <span className="text-gray-800">
+                Unmatched Quality: Warranties & Guarantees
+              </span>
             </div>
             <div className="flex items-center mb-3">
               <span className="text-yellow-500 text-lg mr-2">★</span>
-              <span className="text-gray-800">Online Schedule</span>
+              <span className="text-gray-800">
+                Unparalleled Experience: Exceeding Expectations
+              </span>
             </div>
             <div className="flex items-center mb-3">
               <span className="text-yellow-500 text-lg mr-2">★</span>
-              <span className="text-gray-800">Financing Available</span>
+              <span className="text-gray-800">
+                Unrivaled Convenience: Online Scheduling
+              </span>
+            </div>
+            <div className="flex items-center mb-3">
+              <span className="text-yellow-500 text-lg mr-2">★</span>
+              <span className="text-gray-800">
+                Unbeatable Value: Financing Options Available
+              </span>
             </div>
           </div>
           <div className="mt-8">
