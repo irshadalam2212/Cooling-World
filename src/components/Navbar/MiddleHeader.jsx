@@ -2,7 +2,7 @@ import React from "react";
 
 const MiddleHeader = () => {
   return (
-    <div className="bg-white flex justify-between items-center py-8 px-[100px]">
+    <div className="bg-white md:flex hidden justify-between items-center py-8 px-[100px]">
       <div className="flex items-center space-x-2 cursor-pointer">
         <img src="/logo.png" alt="Cooling World Logo" className="h-10" />
         <span className="text-2xl font-bold text-blue-900">Cooling World</span>

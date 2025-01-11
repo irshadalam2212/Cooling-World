@@ -38,7 +38,7 @@ const TopHeader = () => {
 
   return (
     <>
-      <div className="bg-blue-900 text-white flex justify-between items-center py-2 px-8">
+      <div className="bg-blue-900 text-white md:flex hidden justify-between items-center py-2 px-8">
         <div className="flex items-center space-x-2">
           <i className="fas fa-clock text-yellow-500"></i>
           <span>
@@ -71,9 +71,6 @@ const TopHeader = () => {
         </div>
       </div>
     </>
-    // <Routes>
-    //
-    // </Routes>
   );
 };
 

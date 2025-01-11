@@ -6,7 +6,7 @@ function AboutPage() {
       id="about"
       className="bg-white min-h-screen flex items-center justify-center"
     >
-      <div className="rounded-lg flex gap-5">
+      <div className="rounded-lg flex md:flex-row flex-col-reverse gap-5">
         {/* Left Section */}
         <div className="py-6 px-5">
           <img

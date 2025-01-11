@@ -9,7 +9,7 @@ const Testimonial = () => {
       <h1 className="text-4xl text-gray-800 font-bold mt-2">
         Words From Customers
       </h1>
-      <div className="shadow-md rounded-lg p-8 m-4 w-full md:w-1/2">
+      <div className="shadow-md rounded-lg p-8 md:m-4 w-full md:w-1/2">
         <div className="flex items-center my-4">
           <img
             className="w-12 h-12 rounded-full mr-4"

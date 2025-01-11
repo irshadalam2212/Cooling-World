@@ -9,7 +9,7 @@ const Card = ({ id, name, description, image }) => {
   };
 
   return (
-    <div className="flex flex-col shadow-md w-full max-h-max m-[1rem] p-[1rem] rounded-lg">
+    <div className="flex flex-col shadow-md w-full max-h-max md:m-[1rem] m-0 p-[1rem] rounded-lg">
       <img src={image} alt={name} className="aspect-square object-cover" />
       <div className="my-5 mx-1 text-2xl">{name}</div>
       <div>

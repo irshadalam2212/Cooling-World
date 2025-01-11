@@ -5,7 +5,7 @@ import { Link } from "react-scroll";
 const Footer = () => {
   return (
     <footer className="bg-blue-900 text-white px-5 py-6">
-      <div className="container grid grid-cols-3 gap-5 ">
+      <div className="container grid md:grid-cols-3 grid-cols-2 gap-5 ">
         {/* Left Section */}
         <div className="mb-8 md:mb-0">
           <h2 className="text-2xl font-bold mb-4">Cooling World</h2>
